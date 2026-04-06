@@ -1,0 +1,42 @@
+# Visual Studio / .NET standard ignores
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.runtimeconfig.json
+*.deps.json
+*.nupkg
+*.snupkg
+*.cache
+*.genruntimeconfig.cache
+*.GeneratedMSBuildEditorConfig.editorconfig
+
+# NuGet
+packages/
+*.nupkg
+project.nuget.cache
+*.nuget.props
+*.nuget.targets
+
+# Rider
+.idea/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
+
+# Input/Output データは無視する場合
+MyProject/Input/
+MyProject/Output/
