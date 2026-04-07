@@ -148,6 +148,36 @@ Log.Info("処理完了");
 
 ---
 
+## Example Project Structure
+
+```
+MyProject/
+ ├─ Input/
+ ├─ Output/
+ │   └─ log.txt
+ ├─ src/
+ │   ├─ GlobalPaths.cs
+ │   └─ Services/
+ │       └─ SampleService.cs
+ └─ Program.cs
+```
+
+### ディレクトリ説明
+
+* Input
+  入力ファイルを配置するディレクトリ
+
+* Output
+  出力ファイルおよびログ（log.txt）が生成されるディレクトリ
+
+* src
+  アプリケーションコードを配置する
+
+* Program.cs
+  エントリポイント（AppRunner により実行）
+
+---
+
 ## 想定される利用シーン
 
 * 複数のバッチプロジェクトで共通の実行構造を統一する
