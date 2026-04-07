@@ -1,5 +1,9 @@
 CommonBatchFramework
 
+Lightweight batch framework for .NET
+
+This repository includes a sample project (MyProject) demonstrating usage.
+
 概要
 
 CommonBatchFramework は、すべての C# バッチ処理プロジェクトで共通して利用できる、軽量・最小限のフレームワークです。
