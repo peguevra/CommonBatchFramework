@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <PackageTags>csharp;batch;batch-processing;console-app;framework;lightweight;paths;logging;boilerplate;template</PackageTags>
     <PackageId>CommonBatchFramework</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.5</Version>
     <Authors>YourName</Authors>
     <Description>Common batch processing framework</Description>
 
