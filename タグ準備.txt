@@ -1,1 +1,0 @@
-<PackageTags>csharp;batch;batch-processing;console-app;framework;lightweight;paths;logging;boilerplate;template</PackageTags>

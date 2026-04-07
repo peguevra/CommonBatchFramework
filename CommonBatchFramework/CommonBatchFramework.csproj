@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <PackageTags>csharp;batch;batch-processing;console-app;framework;lightweight;paths;logging;boilerplate;template</PackageTags>
     <PackageId>CommonBatchFramework</PackageId>
     <Version>1.0.1</Version>
     <Authors>YourName</Authors>
@@ -14,4 +15,6 @@
     <!-- src 配下の全コードを明示 -->
     <Compile Include="src\**\*.cs" />
   </ItemGroup>
+  
+
 </Project>

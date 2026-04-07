@@ -1,5 +1,0 @@
-CommonBatchFramework is a lightweight framework for C# batch applications that standardizes execution flow, path management, and logging rules.
-
-It provides only essential structure: AppRunner for execution, GlobalPaths for file management, and Log for consistent output.
-
-Designed for simplicity, consistency, and single-exe operation without external dependencies.
