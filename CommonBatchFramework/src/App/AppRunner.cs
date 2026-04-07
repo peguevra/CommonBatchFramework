@@ -8,19 +8,21 @@ namespace CommonBatchFramework.App
         {
             try
             {
+                Log.Info("処理開始");
+
                 action();
 
-                Console.WriteLine("正常終了しました。");
+                Log.Info("正常終了しました。");
             }
             catch (Exception ex)
             {
-                Console.WriteLine("エラーが発生しました:");
-                Console.WriteLine(ex.ToString());
+                Log.Error("エラーが発生しました:");
+                Log.Error(ex.ToString());
 
                 Environment.ExitCode = 1;
             }
 
-            Console.WriteLine("Enterキーで終了...");
+            Log.Info("Enterキーで終了...");
             Console.ReadLine();
         }
     }

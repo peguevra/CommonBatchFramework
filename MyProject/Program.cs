@@ -11,6 +11,8 @@ namespace MyProject
                 var paths = new GlobalPaths();
                 paths.EnsureDirectories();
 
+                Log.Initialize(paths.OutputDir); // ← これ追加
+
                 var service = new Services.SampleService();
                 service.Execute(paths);
             });

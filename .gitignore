@@ -40,3 +40,6 @@ Desktop.ini
 # Input/Output データは無視する場合
 MyProject/Input/
 MyProject/Output/
+
+#Logs
+*.log
