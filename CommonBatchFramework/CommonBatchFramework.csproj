@@ -1,13 +1,27 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <PackageTags>csharp;batch;batch-processing;console-app;framework;lightweight;paths;logging;boilerplate;template</PackageTags>
-    <PackageId>CommonBatchFramework</PackageId>
-    <Version>1.0.5</Version>
-    <Authors>YourName</Authors>
-    <Description>Common batch processing framework</Description>
 
-    <!-- 自動読み込みを無効 -->
+    <!-- NuGet基本情報 -->
+    <PackageId>CommonBatchFramework</PackageId>
+    <Version>1.0.6</Version>
+    <Authors>peguevra</Authors>
+
+    <!-- 説明（最重要） -->
+    <Description>
+Minimal and lightweight batch framework for .NET with standardized paths and logging. 
+Ideal for simple batch tools and internal automation.
+    </Description>
+
+    <!-- 検索用タグ -->
+    <PackageTags>csharp;dotnet;batch;console-app;logging;framework;automation</PackageTags>
+
+    <!-- GitHub連携 -->
+    <RepositoryUrl>https://github.com/peguevra/CommonBatchFramework</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/peguevra/CommonBatchFramework</PackageProjectUrl>
+
+    <!-- ビルド設定 -->
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
 
@@ -15,4 +29,5 @@
     <!-- src 配下の全コードを明示 -->
     <Compile Include="src\**\*.cs" />
   </ItemGroup>
+
 </Project>
